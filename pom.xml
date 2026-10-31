@@ -428,7 +428,7 @@
         <dl4j.version>1.0.0-beta4</dl4j.version>
         <nd4j.version>1.0.0-beta4</nd4j.version>
         <fastjson.version>1.2.75</fastjson.version>
-        <lombok.version>1.18.8</lombok.version>
+        <lombok.version>1.18.32</lombok.version>
         
         <javacv-platform.version>1.5.1</javacv-platform.version>
         <ale-platform.version>0.6.0-1.5.1</ale-platform.version>
@@ -478,13 +478,6 @@
     <dependencyManagement>
 
         <dependencies>
-
-            <!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-core -->
-            <dependency>
-                <groupId>org.deeplearning4j</groupId>
-                <artifactId>deeplearning4j-core</artifactId>
-                <version>1.0.0-beta4</version>
-            </dependency>
 
             <!-- https://mvnrepository.com/artifact/org.bytedeco/javacv-platform -->
             <dependency>
